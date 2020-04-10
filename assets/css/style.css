@@ -59,9 +59,13 @@ nav p {
   text-transform: uppercase;
   color: #fff;
   margin-right: 20px;
+  padding: 10px;
   height: max-content;
   border-radius: 10px;
   transition: 0.3s all ease;
+}
+nav a {
+  text-decoration: none;
 }
 .logo-banner {
   padding-left: 100px;
@@ -212,7 +216,7 @@ footer {
   }
 }
 /* screen for phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   body {
     font-size: 12px;
   }
@@ -245,28 +249,5 @@ footer {
   }
   #skillset {
     margin-bottom: 0;
-  }
-}
-@media only screen and (max-width: 768px) {
-  /* screen for tablets */
-  nav {
-    display: flex;
-    flex-direction: column;
-    height: max-content;
-    padding-bottom: 10px;
-  }
-  .logo-banner {
-    padding-top: 10px;
-    padding-left: 0;
-  }
-  .navigation {
-    padding-right: 0;
-  }
-  .navigation p {
-    padding: 5px;
-  }
-  main {
-    display: flex;
-    flex-direction: column;
   }
 }
